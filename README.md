@@ -10,8 +10,9 @@ This template for organising project files is roughly based on [A Quick Guide to
 	│   │   ├── annot_v00_.ipynb
 	│   │   ├── merge_v00_.ipynb
 	│   │   ├── data_analysed.yml (cfg)
-	│   │   ├── data_analysed -> ../../data_analysed
-	│   │   ├── database -> ../../../database
+	│   │   ├── data -> ../../data
+	|   |   |   ├── data_analysed 
+	│   │   |   └── database -> database
 	│   │   ├── figs 
 	│   │   └── plot 
 	│   ├── README.md
