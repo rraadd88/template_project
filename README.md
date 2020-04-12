@@ -14,7 +14,8 @@ This template for organising project files is roughly based on [A Quick Guide to
 	|   |   |   ├── data_analysed 
 	│   │   |   └── database -> database
 	│   │   ├── figs 
-	│   │   └── plot 
+	│   │   ├── plot 
+	|   |   └── var -> ../../../var (contains logos)
 	│   ├── README.md
 	│   └── repo_name (contains scripts)
 	│       ├── environment.yml
