@@ -10,11 +10,11 @@ This template for organising project files is roughly based on [A Quick Guide to
 	│   │   ├── annot_v00_.ipynb
 	│   │   ├── merge_v00_.ipynb
 	│   │   ├── data_analysed.yml (cfg)
+	│   │   ├── figs 
+	│   │   ├── plot 
 	│   │   ├── data -> ../../data
 	|   |   |   ├── data_analysed 
 	│   │   |   └── database -> database
-	│   │   ├── figs 
-	│   │   ├── plot 
 	|   |   └── var -> ../../../var (contains logos)
 	│   ├── README.md
 	│   └── repo_name (contains scripts)
@@ -27,6 +27,9 @@ This template for organising project files is roughly based on [A Quick Guide to
 	│       │   ├── curate01_exp.py
 	│       │   ├── plots.py
 	│       │   ├── figures.py
+	|       |   ├── data ->
+	|       |   ├── notebooks ->	
+	|       |   ├── var ->	
 	│       ├── requirements.txt
 	│       ├── setup.cfg
 	│       └── setup.py
