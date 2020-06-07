@@ -3,47 +3,39 @@ This template for organising project files is roughly based on [A Quick Guide to
 
 ## directory structure
 
-	project_name/
-	├── code
-	│   ├── notebooks
-	│   │   ├── plots_v01_.ipynb
-	│   │   ├── annot_v00_.ipynb
-	│   │   ├── merge_v00_.ipynb
-	│   │   ├── data_analysed.yml (cfg)
-	│   │   ├── figs 
-	│   │   ├── plot 
-	│   │   ├── data -> ../../data
-	|   |   |   ├── data_analysed 
-	│   │   |   └── database -> database
-	|   |   └── var -> ../../../var (contains logos)
-	│   ├── README.md
-	│   └── repo_name (contains scripts)
-	│       ├── environment.yml
-	│       ├── MANIFEST.in
-	│       ├── README.md
-	│       ├── repo_name
-	│       │   ├── cfg.yml (data_analysed.yml)
-	│       │   ├── curate00_annot.py
-	│       │   ├── curate01_exp.py
-	│       │   ├── plots.py
-	│       │   ├── figures.py
-	|       |   ├── data ->
-	|       |   ├── notebooks ->	
-	|       |   ├── var ->	
-	│       ├── requirements.txt
-	│       ├── setup.cfg
-	│       └── setup.py
-	├── data
-	│   ├── 01clonning
-	│   ├── 02expression
-	│   ├── 03blahblah
-	│   ├── data_analysed
-	│   ├── data_analysed.yml (cfg)
-	│   └── README.md
-	├── docs
-	│   ├── method
-	│   ├── paper
-	│   ├── presentations
-	│   └── README.md
-	└── README.md
-
+    project_name/
+    ├── data
+    │   ├── data_exp
+    │   ├── database -> ../../    
+    │   ├── data_analysed
+    │   ├── data_analysed.yml (cfg)
+    │   └── README.md
+    ├── code
+    │   ├── test
+    │   └── {repo_name} (contains scripts)
+    │       ├── requirements.txt
+    │       ├── environment.yml
+    │       ├── README.md
+    │       ├── {repo_name}
+    │       │   ├── 00_annot_v01.ipynb
+    │       │   ├── 01_exp_v01.ipynb
+    │       │   ├── get00_annot_v01.py
+    │       │   ├── get01_exp_v01.py
+    │       │   ├── get98_plots.py
+    │       │   ├── get99_figures.py
+    │       │   ├── run.py
+    │       │   ├── figs 
+    │       │   ├── plot 
+    │       │   ├── data_si 
+    │       │   ├── cfg_figures.yml
+    |       |   ├── data -> ../../
+    │       |   └── var -> ../../../var (contains logos)
+    │       ├── requirements.txt
+    │       ├── setup.cfg
+    │       └── setup.py
+    ├── docs
+    │   ├── method
+    │   ├── paper
+    │   ├── presentations
+    │   └── README.md
+    └── README.md
