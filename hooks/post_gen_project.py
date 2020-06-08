@@ -2,7 +2,7 @@ from os.path import exists
 import subprocess
 
 dir2ps={'docs':['paper','presentations'],
-        'data':['data_analysed','data_exp','database'],
+        'data':['data_analysed','data_exp'],
         'code':['test','deps'],
        }
 dir2info={'docs':'`docs`  \nThis directory contains the manuscripts and presentations.',
