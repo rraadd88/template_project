@@ -11,11 +11,7 @@ This template for organising project files is roughly based on [A Quick Guide to
     │   ├── data_analysed.yml (cfg)
     │   └── README.md
     ├── code
-    │   ├── test
     │   └── {repo_name} (contains scripts)
-    │       ├── requirements.txt
-    │       ├── environment.yml
-    │       ├── README.md
     │       ├── {repo_name}
     │       │   ├── 00_annot_v01.ipynb
     │       │   ├── 01_exp_v01.ipynb
@@ -31,7 +27,8 @@ This template for organising project files is roughly based on [A Quick Guide to
     |       |   ├── data -> ../../
     │       |   └── var -> ../../../var (contains logos)
     │       ├── requirements.txt
-    │       ├── setup.cfg
+    │       ├── environment.yml
+    │       ├── README.md
     │       └── setup.py
     ├── docs
     │   ├── method
